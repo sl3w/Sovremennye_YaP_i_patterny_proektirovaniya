@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96430d93-c689-45d3-8e08-409ee39e6389" name="Default Changelist" comment="" />
+    <list default="true" id="96430d93-c689-45d3-8e08-409ee39e6389" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/mains/prototype/PrototypeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1/com/factory/AutoFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1/com/factory/MotoFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1/com/factory/interfaces/TransportFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1/com/mains/factory_method/FactoryMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1/com/mains/factory_method/FactoryMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1/com/mains/factory_method/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1/com/model/Auto$Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1/com/model/Auto$Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1/com/model/Auto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1/com/model/Auto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1/com/model/Moto$Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1/com/model/Moto$Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1/com/model/Moto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1/com/model/Moto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1/com/model/interfaces/Vehiclable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/factories/AutoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/factories/AutoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/factories/MotoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/factories/MotoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/factories/interfaces/TransportFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/factories/interfaces/TransportFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mains/factory_method/FactoryMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mains/factory_method/FactoryMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mains/factory_method/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mains/factory_method/Transport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/model/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/model/Auto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/model/Moto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/model/Moto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/model/interfaces/Vehiclable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/model/interfaces/Transportable.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +62,7 @@
       <recent name="C:\Users\SL3W\Desktop\Lab1\src\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Factory">
+  <component name="RunManager" selected="Application.Prototype">
     <configuration name="Factory" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.mains.factory_method.FactoryMain" />
       <module name="Lab1" />
@@ -49,7 +70,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SIngleton" type="Application" factoryName="Application" temporary="true">
+    <configuration name="Prototype" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.mains.prototype.PrototypeMain" />
+      <module name="Lab1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Singleton" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.mains.singleton.SingletonMain" />
       <module name="Lab1" />
       <RunnerSettings RunnerId="Run" />
@@ -60,11 +88,12 @@
     </configuration>
     <list>
       <item itemvalue="Application.Factory" />
-      <item itemvalue="Application.SIngleton" />
+      <item itemvalue="Application.Prototype" />
+      <item itemvalue="Application.Singleton" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SIngleton" />
+        <item itemvalue="Application.Singleton" />
       </list>
     </recent_temporary>
   </component>
@@ -80,7 +109,7 @@
       <updated>1582085739327</updated>
       <workItem from="1582085760883" duration="15705000" />
       <workItem from="1582141298652" duration="4107000" />
-      <workItem from="1582363822056" duration="6343000" />
+      <workItem from="1582363822056" duration="18446000" />
     </task>
     <task id="LOCAL-00001" summary="com2">
       <created>1582145096748</created>
@@ -137,18 +166,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Deployment/0.0.1536.824@0.0.1536.824" timestamp="1582369733635" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582368230582">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582372823521">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1582368230582" />
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1582368452347">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1582372823521" />
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1582397253506">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1582368452347" />
-    <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582089706562">
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1582397253506" />
+    <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582372784575">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1582089706562" />
+    <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1582372784575" />
     <state x="258" y="7" key="CommitChangelistDialog2" timestamp="1582369968408">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -161,38 +190,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582368731993" />
-    <state width="1493" height="123" key="GridCell.Tab.0.bottom" timestamp="1582369555102">
+    <state width="1493" height="175" key="GridCell.Tab.0.bottom" timestamp="1582397908401">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="123" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582369555102" />
-    <state width="1493" height="123" key="GridCell.Tab.0.center" timestamp="1582369555102">
+    <state width="1493" height="175" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582397908401" />
+    <state width="1493" height="175" key="GridCell.Tab.0.center" timestamp="1582397908401">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="123" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582369555102" />
-    <state width="1493" height="123" key="GridCell.Tab.0.left" timestamp="1582369555102">
+    <state width="1493" height="175" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582397908401" />
+    <state width="1493" height="175" key="GridCell.Tab.0.left" timestamp="1582397908401">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="123" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582369555102" />
-    <state width="1493" height="123" key="GridCell.Tab.0.right" timestamp="1582369555102">
+    <state width="1493" height="175" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582397908401" />
+    <state width="1493" height="175" key="GridCell.Tab.0.right" timestamp="1582397908401">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="123" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582369555102" />
-    <state width="1493" height="298" key="GridCell.Tab.1.bottom" timestamp="1582366422080">
+    <state width="1493" height="175" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582397908401" />
+    <state width="1493" height="230" key="GridCell.Tab.1.bottom" timestamp="1582379518340">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="298" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582366422080" />
-    <state width="1493" height="298" key="GridCell.Tab.1.center" timestamp="1582366422080">
+    <state width="1493" height="230" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582379518340" />
+    <state width="1493" height="230" key="GridCell.Tab.1.center" timestamp="1582379518340">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="298" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582366422080" />
-    <state width="1493" height="298" key="GridCell.Tab.1.left" timestamp="1582366422080">
+    <state width="1493" height="230" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582379518340" />
+    <state width="1493" height="230" key="GridCell.Tab.1.left" timestamp="1582379518340">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="298" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582366422080" />
-    <state width="1493" height="298" key="GridCell.Tab.1.right" timestamp="1582366422080">
+    <state width="1493" height="230" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582379518340" />
+    <state width="1493" height="230" key="GridCell.Tab.1.right" timestamp="1582379518340">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="298" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582366422080" />
+    <state width="1493" height="230" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582379518340" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1582369980434">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -205,5 +234,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="463" y="144" width="609" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1582368369819" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="auto.modelsHead.prev" />
+        <watch expression="autoClone.modelsHead.next.next" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

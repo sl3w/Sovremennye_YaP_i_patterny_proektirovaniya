@@ -3,7 +3,7 @@ package com.model.interfaces;
 import com.exceptions.DuplicateModelNameException;
 import com.exceptions.NoSuchModelNameException;
 
-public interface Vehiclable {
+public interface Transportable {
     String getMarka();
     void setMarka(String marka);
     void setNewModelName(String oldName, String newName) throws NoSuchModelNameException, DuplicateModelNameException;
@@ -14,4 +14,5 @@ public interface Vehiclable {
     void deleteModel(String delName) throws NoSuchModelNameException;
     int getModelsCount();
     String toString();
+    Object clone() throws CloneNotSupportedException;
 }

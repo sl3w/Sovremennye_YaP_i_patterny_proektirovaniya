@@ -1,8 +1,8 @@
 package com.factories.interfaces;
 
 import com.exceptions.DuplicateModelNameException;
-import com.model.interfaces.Vehiclable;
+import com.model.interfaces.Transportable;
 
 public interface TransportFactory {
-    Vehiclable createInstance(String marka, int modelsCount) throws DuplicateModelNameException;
+    Transportable createInstance(String marka, int modelsCount) throws DuplicateModelNameException;
 }

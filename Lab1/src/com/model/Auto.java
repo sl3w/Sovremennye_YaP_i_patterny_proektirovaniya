@@ -3,11 +3,11 @@ package com.model;
 import com.exceptions.DuplicateModelNameException;
 import com.exceptions.ModelPriceOutOfBoundsException;
 import com.exceptions.NoSuchModelNameException;
-import com.model.interfaces.Vehiclable;
+import com.model.interfaces.Transportable;
 
 import java.util.Arrays;
 
-public class Auto implements Vehiclable {
+public class Auto implements Transportable, Cloneable {
     private String marka;
     private Model[] models;
 
@@ -22,7 +22,7 @@ public class Auto implements Vehiclable {
     public Auto(String marka, int modelsCount) throws DuplicateModelNameException {
         this.marka = marka;
         for (int i = 1; i <= modelsCount; i++) {
-            addNewModel("model" + i, i * 100);
+            addNewModel("model_" + i, i * 100);
         }
     }
 
@@ -134,7 +134,17 @@ public class Auto implements Vehiclable {
                 "\r\n}";
     }
 
-    private class Model {
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        Auto autoClone = (Auto) super.clone();
+        autoClone.models = models.clone();
+        for (int i = 0; i < models.length; i++) {
+            autoClone.models[i] = (Model) models[i].clone();
+        }
+        return autoClone;
+    }
+
+    private class Model implements Cloneable {
         private String modelName;
         private double price;
 
@@ -168,6 +178,10 @@ public class Auto implements Vehiclable {
                     "modelName='" + modelName + '\'' +
                     ", price=" + price +
                     '}';
+        }
+
+        public Object clone() throws CloneNotSupportedException {
+            return super.clone();
         }
     }
 }

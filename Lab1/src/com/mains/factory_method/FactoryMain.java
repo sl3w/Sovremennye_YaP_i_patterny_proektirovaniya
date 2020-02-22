@@ -34,12 +34,12 @@ public class FactoryMain {
 //        Vehicle.printModelsWithPrice(vehicle);
 
 //        фабрики
-        write(Vehicle.createInstance("car", 5).toString());
+        write(Transport.createInstance("car", 5).toString());
 
         MotoFactory motoFactory = new MotoFactory();
-        Vehicle.setTransportFactory(motoFactory);
+        Transport.setTransportFactory(motoFactory);
 
-        write(Vehicle.createInstance("moto", 7).toString());
+        write(Transport.createInstance("moto", 7).toString());
     }
 
     private static void write(String str) {

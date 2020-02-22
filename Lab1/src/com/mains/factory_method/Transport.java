@@ -3,16 +3,16 @@ package com.mains.factory_method;
 import com.exceptions.DuplicateModelNameException;
 import com.factories.AutoFactory;
 import com.factories.interfaces.TransportFactory;
-import com.model.interfaces.Vehiclable;
+import com.model.interfaces.Transportable;
 
-public class Vehicle {
+public class Transport {
     private static TransportFactory factory = new AutoFactory();
 
     public static void setTransportFactory(TransportFactory transportFactory) {
         factory = transportFactory;
     }
 
-    public static double getAverageModelsPrice(Vehiclable vehicle) {
+    public static double getAverageModelsPrice(Transportable vehicle) {
         double sum = 0;
         double[] prices = vehicle.getPricesArray();
         if (prices.length > 0) {
@@ -24,21 +24,21 @@ public class Vehicle {
         return 0; //or Double.NaN
     }
 
-    public static void printModels(Vehiclable vehicle) {
+    public static void printModels(Transportable vehicle) {
         String[] models = vehicle.getModelsNameArray();
         for (int i = 0; i < models.length; i++) {
             System.out.println(models[i]);
         }
     }
 
-    public static void printPrices(Vehiclable vehicle) {
+    public static void printPrices(Transportable vehicle) {
         double[] prices = vehicle.getPricesArray();
         for (int i = 0; i < prices.length; i++) {
             System.out.println(prices[i]);
         }
     }
 
-    public static void printModelsWithPrice(Vehiclable vehicle) {
+    public static void printModelsWithPrice(Transportable vehicle) {
         String[] models = vehicle.getModelsNameArray();
         double[] prices = vehicle.getPricesArray();
         for (int i = 0; i < models.length; i++) {
@@ -46,7 +46,7 @@ public class Vehicle {
         }
     }
 
-    public static Vehiclable createInstance(String name, int size) throws DuplicateModelNameException {
+    public static Transportable createInstance(String name, int size) throws DuplicateModelNameException {
         return factory.createInstance(name, size);
     }
 }

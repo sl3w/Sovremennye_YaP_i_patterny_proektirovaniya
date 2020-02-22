@@ -3,11 +3,9 @@ package com.model;
 import com.exceptions.DuplicateModelNameException;
 import com.exceptions.ModelPriceOutOfBoundsException;
 import com.exceptions.NoSuchModelNameException;
-import com.model.interfaces.Vehiclable;
+import com.model.interfaces.Transportable;
 
-import java.util.Arrays;
-
-public class Moto implements Vehiclable {
+public class Moto implements Transportable, Cloneable {
     private String marka;
     private Model modelsHead = new Model();
     private int size = 0;
@@ -19,7 +17,7 @@ public class Moto implements Vehiclable {
     public Moto(String marka, int modelsCount) throws DuplicateModelNameException {
         this.marka = marka;
         for (int i = 1; i <= modelsCount; i++) {
-            addNewModel("model" + i, i * 100);
+            addNewModel("model_" + i, i * 100);
         }
     }
 
@@ -162,13 +160,45 @@ public class Moto implements Vehiclable {
 
     @Override
     public String toString() {
-        return "Moto{" + "\r\n" +
+        String str =  "Moto{" + "\r\n" +
                 "marka='" + marka + '\'' +
-                ", \r\nmodelsHead=" + modelsHead +
-                "\r\n}";
+                ", \r\nmodels=[\r\n";
+        Model p = modelsHead.next;
+        while (p != modelsHead) {
+            str += p + "\r\n";
+            p = p.next;
+        }
+        str += "]}";
+        return str;
     }
 
-    private class Model {
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        Moto motoClone = (Moto) super.clone();
+        motoClone.modelsHead = new Model();
+        motoClone.modelsHead.next = motoClone.modelsHead;
+        motoClone.modelsHead.prev = motoClone.modelsHead;
+
+        Model p = modelsHead.next;
+        Model clonePrev = motoClone.modelsHead;
+        Model cloneNext = motoClone.modelsHead;
+
+        while (p != modelsHead) {
+            Model newModel = (Model) p.clone();
+
+            newModel.prev = clonePrev;
+            newModel.next = cloneNext;
+
+            clonePrev.next = newModel;
+            cloneNext.prev = newModel;
+
+            clonePrev = newModel;
+            p = p.next;
+        }
+        return motoClone;
+    }
+
+    private class Model implements Cloneable {
         String modelName = null;
         double price = Double.NaN;
         Model prev = null;
@@ -223,16 +253,14 @@ public class Moto implements Vehiclable {
 
         @Override
         public String toString() {
-            Model p = modelsHead.getNext();
-            String str = "";
-            while (p != modelsHead) {
-                str += "\r\nModel{" +
-                        "modelName='" + p.getModelName() + '\'' +
-                        ", price=" + p.getPrice() +
-                        '}';
-                p = p.getNext();
-            }
-            return str;
+            return "Model{" +
+                    "modelName='" + modelName + '\'' +
+                    ", price=" + price +
+                    '}';
+        }
+
+        public Object clone() throws CloneNotSupportedException {
+            return super.clone();
         }
     }
 }
