@@ -2,13 +2,13 @@ package com.mains.factory_method;
 
 import com.exceptions.DuplicateModelNameException;
 import com.factories.AutoFactory;
-import com.factories.interfaces.TransportFactory;
+import com.factories.interfaces.ITransportFactory;
 import com.model.interfaces.Transportable;
 
 public class Transport {
-    private static TransportFactory factory = new AutoFactory();
+    private static ITransportFactory factory = AutoFactory.getFactory();
 
-    public static void setTransportFactory(TransportFactory transportFactory) {
+    public static void setTransportFactory(ITransportFactory transportFactory) {
         factory = transportFactory;
     }
 

@@ -36,7 +36,7 @@ public class FactoryMain {
 //        фабрики
         write(Transport.createInstance("car", 5).toString());
 
-        MotoFactory motoFactory = new MotoFactory();
+        MotoFactory motoFactory = MotoFactory.getFactory();
         Transport.setTransportFactory(motoFactory);
 
         write(Transport.createInstance("moto", 7).toString());
