@@ -10,7 +10,7 @@ import java.util.Arrays;
 
 public class PrototypeMain {
     public static void main(String[] args) throws DuplicateModelNameException, CloneNotSupportedException, NoSuchModelNameException {
-        Transportable auto = new Moto("marka", 2);
+        Transportable auto = new Auto("marka", 2);
         Transportable autoClone = (Transportable) auto.clone();
 
         write("Original: " + Arrays.toString(auto.getModelsNameArray()));

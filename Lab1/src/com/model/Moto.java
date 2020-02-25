@@ -143,8 +143,9 @@ public class Moto implements Transportable, Cloneable {
         Model p = modelsHead.next;
         while (p != modelsHead) {
             if (p.getModelName().equals(delName)) {
+                p.next.prev = p.prev;
                 p.prev.next = p.next;
-                p = null;
+
                 size--;
                 return;
             }
