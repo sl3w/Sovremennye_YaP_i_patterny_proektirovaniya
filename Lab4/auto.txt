@@ -1,0 +1,12 @@
+carDao
+5
+model_1
+100.0
+model_2
+200.0
+model_3
+300.0
+model_4
+400.0
+model_5
+500.0
