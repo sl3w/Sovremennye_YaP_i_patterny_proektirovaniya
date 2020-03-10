@@ -5,7 +5,7 @@ import com.exceptions.NoSuchModelNameException;
 import com.model.interfaces.Transportable;
 
 public class Decorator implements Transportable {
-    Transportable transport;
+    private Transportable transport;
 
     public Decorator(Transportable transport) {
         this.transport = transport;
