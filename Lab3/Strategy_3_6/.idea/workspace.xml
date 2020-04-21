@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b94683f7-c22f-466d-85fc-2ca380462c62" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YYdWuXCbppo0rj7CNTW34QtLNK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Template_Method_3_7" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="workMain.Main" />
+      <module name="Strategy_3_6" />
+      <option name="PROGRAM_PARAMETERS" value="studIN.xml studOUTdom.xml studOUTsax.xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="workMain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b94683f7-c22f-466d-85fc-2ca380462c62" name="Default Changelist" comment="" />
+      <created>1551092787887</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551092787887</updated>
+      <workItem from="1551092796873" duration="874000" />
+      <workItem from="1551166146433" duration="7800000" />
+      <workItem from="1551448239216" duration="354000" />
+      <workItem from="1551448790526" duration="172000" />
+      <workItem from="1551449036775" duration="84000" />
+      <workItem from="1551449218387" duration="604000" />
+      <workItem from="1551449897735" duration="1045000" />
+      <workItem from="1551452347718" duration="4958000" />
+      <workItem from="1551462252993" duration="246000" />
+      <workItem from="1551513623846" duration="1678000" />
+      <workItem from="1552509597020" duration="583000" />
+      <workItem from="1583123511936" duration="3875000" />
+      <workItem from="1583129140257" duration="2058000" />
+      <workItem from="1583167527147" duration="2800000" />
+      <workItem from="1583826208401" duration="1019000" />
+      <workItem from="1587405436701" duration="948000" />
+      <workItem from="1587407133926" duration="97000" />
+      <workItem from="1587449307081" duration="1160000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="154" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587405790360">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1583828148897" />
+    <state x="154" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1587405790360" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1583168948529">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1583168948529" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587405969156">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1587405969156" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1587449320155">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587449320155" />
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1587407230206">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1323" height="160" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583828518525" />
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587407230206" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1587407230206">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1323" height="160" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1583828518524" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587407230206" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1587407230206">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1323" height="160" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1583828518524" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587407230206" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1587407230206">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1323" height="160" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1583828518525" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587407230206" />
+    <state width="1323" height="211" key="GridCell.Tab.1.bottom" timestamp="1583128260806">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="211" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583128260806" />
+    <state width="1323" height="211" key="GridCell.Tab.1.center" timestamp="1583128260805">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="211" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1583128260805" />
+    <state width="1323" height="211" key="GridCell.Tab.1.left" timestamp="1583128260805">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="211" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1583128260805" />
+    <state width="1323" height="211" key="GridCell.Tab.1.right" timestamp="1583128260806">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="211" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1583128260806" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((DeferredElementImpl)sub).attributes" custom="com.sun.org.apache.xerces.internal.dom.DeferredElementImpl" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
