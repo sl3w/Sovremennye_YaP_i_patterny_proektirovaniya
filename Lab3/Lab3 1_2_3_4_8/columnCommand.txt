@@ -1,0 +1,8 @@
+Машинка
+3
+Model: Model_1
+Price: 100.0
+Model: Model_2
+Price: 200.0
+Model: Model_3
+Price: 300.0
